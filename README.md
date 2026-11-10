@@ -17,6 +17,7 @@ Python analysis of the Toronto Police Service's Major Crime Indicators dataset (
 
 - `Crime_Pattern_Clustering_and_Forecasting.ipynb` – the full analysis, with outputs
 - `crime_map.html` – the interactive map (download it and open it in a browser)
+- `Crime_map_example.png` – an example of the interactive map
 - `requirements.txt` – Python libraries used
 - `forecast_vs_actual.png`, `counts_jan_to_sep.png`, `dbscan_clusters.png` – charts used below
 
@@ -49,7 +50,7 @@ Python analysis of the Toronto Police Service's Major Crime Indicators dataset (
 - Public incident locations are approximate; points line up along streets rather than marking exact addresses.
 - K-Means and DBSCAN use coordinates only, so the clusters show where incidents were recorded, not how risky an area is.
 - The forecast is tested on a single 12-month window, and the seasonal baseline is a simple benchmark.
-- The interactive map has no street background, because free map tile services now block local files or require API keys.
+- The interactive map has no street background to make it accessible without third party services.
 
 ## Reproduce
 
